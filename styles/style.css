@@ -1,0 +1,39 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav li {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+
+.big-lekha {
+    width: 862px;
+    height: 225px;
+    font-weight: 700px;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    margin-left: 529px;
+    top: 205px;
+}
+
+.choto-lekha {
+    width: 868px;
+    height: 52px;
+    margin-left: 526px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
