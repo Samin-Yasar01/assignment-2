@@ -1,6 +1,11 @@
+* {
+    font-family: 'Work Sans';
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0% 10%;
 }
 
 nav ul {
@@ -15,25 +20,250 @@ nav li {
     margin: 40px;
 }
 
+.lekha {
+    margin: 100px 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 .big-lekha {
-    width: 862px;
-    height: 225px;
     font-weight: 700px;
     font-size: 64px;
     line-height: 75px;
     text-align: center;
     color: #131313;
-    margin-left: 529px;
-    top: 205px;
+    margin-bottom: 50px;
+}
+
+.big-lekha p {
+    margin-bottom: 0%;
 }
 
 .choto-lekha {
-    width: 868px;
-    height: 52px;
-    margin-left: 526px;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
     color: #727272;
+}
+
+.btn-explore .btn {
+    width: 180px;
+    height: 64px;
+    background-color: orange;
+    color: aliceblue;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    background: url(group-three-modern-architects.jpg);
+    border-radius: 8px;
+}
+
+.header {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* pics and features */
+.pics-and-features {
+    margin: 85px 301px 0px 301px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: repeat(2, 0.25fr);
+    grid-gap: 24px;
+}
+
+.features {
+    margin: 200px 0px 0px 54px;
+}
+
+.feature-title {
+    border-left-style: solid;
+    border-left-width: 5px;
+    border: #FF900E;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.feature-details {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.gray {
+    color: #727272;
+}
+
+.black {
+    color: #131313;
+}
+
+.orange {
+    color: orange;
+}
+
+/* features u will love */
+
+.ful {
+    display: flex;
+    margin: 301px 170px 100px 301px;
+}
+
+.featurez-container {
+    /* margin: 0px 54px 150px 150px; */
+}
+
+.f-title {
+    border-left: 5px solid orange;
+    text-align: left;
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+
+.f-desc {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+.feature {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 2px;
+}
+
+.U-features {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.feature-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+.f-image {
+    margin: 0px 0px 0px 54px;
+}
+
+.f-image-btn {
+    width: 342px;
+    height: 200px;
+    left: 1000px;
+    top: 3104px;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    position: static;
+}
+
+.img-btn {
+    position: absolute;
+    right: 600px;
+    margin-top: 859px;
+}
+
+.sec-btn-txt {
+    font-weight: 500;
+    font-size: 25px;
+}
+
+/* top */
+.facts-title {
+    margin: 130px 310px 24px 300px;
+    font-size: 42px;
+}
+
+.facts-title-desc {
+    margin: 24px 310px 70px 300px;
+    width: 542px;
+    height: 52px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.facts {
+    margin: 0px 310px 0px 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 100px;
+}
+
+.fact {
+    border: 1px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/* plans */
+.title {
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 55.7px;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.sponsor-container {
+    display: flex;
+    margin: 0px 240px 0px 200px;
+}
+
+.sponsor {
+    background: #FFFFFF;
+
+    border-radius: 5px;
+    padding: 30px;
+    filter: grayscale(100%);
+}
+
+.sp-desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+/* footer */
+.footer-part {
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin: 130px 240px 130px 240px;
+}
+
+.footer-txt {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
 }
