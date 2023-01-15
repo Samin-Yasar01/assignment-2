@@ -53,14 +53,18 @@ nav li {
 .btn-explore .btn {
     width: 180px;
     height: 64px;
-    background-color: orange;
+    background: orange;
     color: aliceblue;
     border-radius: 8px;
     font-weight: 600;
     font-size: 20px;
     text-align: center;
 }
-
+.btn-explore:hover{
+    background-color:black;
+    width: 190px;
+    height: 70px;
+}
 .banner {
     margin-top: 20%;
     margin-bottom: 10%;
@@ -123,10 +127,6 @@ nav li {
     margin: 301px 170px 100px 301px;
 }
 
-.featurez-container {
-    /* margin: 0px 54px 150px 150px; */
-}
-
 .f-title {
     border-left: 5px solid orange;
     text-align: left;
@@ -176,7 +176,11 @@ nav li {
     font-size: 65px;
     position: static;
 }
-
+.f-image-btn:hover{
+    background-color:black;
+    width: 347px;
+    height: 210px;
+}
 .img-btn {
     position: absolute;
     right: 600px;
@@ -188,7 +192,7 @@ nav li {
     font-size: 25px;
 }
 
-/* top */
+/* facts*/
 .facts-title {
     margin: 130px 310px 24px 300px;
     font-size: 42px;
@@ -219,9 +223,17 @@ nav li {
     flex-direction: column;
     align-items: center;
 }
+.fact:hover{
+    border: 1px solid black;
+}
+.fd{
+font-style: normal;
+font-weight: 600;
+font-size: 45px;
+color: #424242;
+}
 
-
-/* plans */
+/*sponsor*/
 .title {
     text-align: center;
     margin-top: 130px;
@@ -232,7 +244,7 @@ nav li {
 
 .sponsor-container {
     display: flex;
-    margin: 0px 240px 0px 200px;
+   justify-content: space-around;
 }
 
 .sponsor {
@@ -253,17 +265,76 @@ nav li {
 
 /* footer */
 .footer-part {
-    width: 1440px;
+    width: 1200px;
     height: 100px;
     background: #FFF4E7;
     border-radius: 8px;
-    margin: 130px 240px 130px 240px;
+    margin: 130px auto 254px auto;
 }
 
 .footer-txt {
+    padding-top: 39px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
     text-align: center;
     color: #424242;
+}
+
+/* mobile view */
+@media only screen and (max-width: 688px){
+
+    .header{
+        margin-left: 0px;
+        margin-right: 0%;
+    }
+    .lekha{
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+    .banner{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .pics-and-features{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .pics{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .ful{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+    .facts-title{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .facts-title-desc{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .facts{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    .sponsor-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-part, .footer-txt{
+        margin-left: 0%;
+        margin-right: 0%;
+        align-items: center;
+    }
+
 }
